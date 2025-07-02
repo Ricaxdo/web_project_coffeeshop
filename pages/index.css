@@ -62,6 +62,7 @@
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
+  margin: 183px 0 0 80px;
 }
 
 .header__span-accent {
@@ -78,6 +79,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
+  margin: 28px 0 0 80px;
 }
 
 .header__image {
@@ -98,10 +100,6 @@
 .header__schedule {
   display: flex;
   flex-direction: column;
-}
-
-.header__schedule-line {
-  margin: 0;
 }
 
 .header__paragraph {
@@ -132,7 +130,7 @@
   font-weight: 500;
 }
 
-.recipes__subtitles {
+.recipes__subtitle {
   max-width: 438px;
   margin: 24px 0 0 80px;
   font-size: 20px;
