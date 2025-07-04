@@ -235,11 +235,15 @@
 .reservation__form-checkbox {
   width: 20px;
   height: 20px;
-  margin: 0 12px 0 0;
   border-radius: 2px;
 }
 
 .reservation__form-terms {
   display: flex;
   margin: 32px auto 0;
+}
+
+.form_label-checkbok {
+  margin: 32px auto 0;
+  gap: 12px;
 }
