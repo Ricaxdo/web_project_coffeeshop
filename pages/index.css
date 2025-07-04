@@ -185,8 +185,8 @@
 .reservation__title {
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  padding-top: 100px;
+  margin: 0 auto 80px;
   font-weight: 500;
 }
 
@@ -243,7 +243,6 @@
   margin: 32px auto 0;
 }
 
-.reservation__form_label-checkbok {
+.reservation__label-checkbox {
   margin: 32px auto 0;
-  gap: 12px;
 }
