@@ -191,8 +191,7 @@
 }
 
 .reservation__form {
-  max-width: 385px;
-  margin: 0 auto 120px;
+  margin: 0;
 }
 
 .reservation__form-fieldset {
@@ -201,6 +200,7 @@
   border: none;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .reservation__form-label {
