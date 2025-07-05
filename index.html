@@ -15,7 +15,6 @@
     <title>Just a Cafeteria</title>
 
     <!--Estilos-->
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
 
     <!--Icono de la página-->
@@ -39,7 +38,10 @@
   </head>
   <body>
     <div class="page">
+      <!--HEADER-->
       <header class="header">
+        <!--Bloque NAV-->
+
         <nav class="nav">
           <img
             class="nav__logo"
@@ -58,6 +60,9 @@
             </li>
           </ul>
         </nav>
+
+        <!--MAIN content del HEADER-->
+
         <h1 class="header__title">
           <span class="header__span-accent">Café de especialidad</span>
           en Triple Peaks
@@ -71,6 +76,9 @@
           alt="Ilustración de una cafeteria"
           class="header__image"
         />
+
+        <!--FOOTER del HEADER-->
+
         <div class="header__footer">
           <div class="header__schedule">
             <p class="header__paragraph">Horario:</p>
@@ -87,7 +95,9 @@
         </div>
       </header>
 
+      <!--MAIN CONTENT-->
       <main class="content">
+        <!--REZAPIS-->
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
@@ -130,26 +140,25 @@
           </div>
         </section>
 
+        <!--RESERVACIONES-->
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reserva una mesa</h2>
           <form action="#" class="form reservation__form">
-            <fieldset class="reservation__form-fieldset">
-              <label class="reservation__form-label" for="nombre"
-                >Nombre *</label
-              >
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="nombre">Nombre *</label>
               <input
-                class="reservation__form-input"
+                class="form__input"
                 id="nombre"
                 type="text"
                 placeholder="Nombre"
                 required
               />
 
-              <label class="reservation__form-label" for="númeroDeComensales"
+              <label class="form__label" for="númeroDeComensales"
                 >Número de comensales *</label
               >
               <input
-                class="reservation__form-input"
+                class="form__input"
                 id="númeroDeComensales"
                 type="number"
                 placeholder="1 - 8"
@@ -158,38 +167,36 @@
                 required
               />
 
-              <label class="reservation__form-label" for="fecha"
-                >Fecha y hora *</label
-              >
+              <label class="form__label" for="fecha">Fecha y hora *</label>
               <input
-                class="reservation__form-input"
+                class="form__input"
                 id="fecha"
                 type="datetime-local"
                 required
               />
 
-              <label class="reservation__form-label" for="correElectrónico"
+              <label class="form__label" for="correElectrónico"
                 >Tu correo electrónico *</label
               >
               <input
-                class="reservation__form-input"
+                class="form__input"
                 id="correElectrónico"
                 type="email"
                 placeholder="email@email.com"
                 required
               />
 
-              <button class="reservation__form-button" type="submit">
+              <button class="form__button" type="submit">
                 Reservar una mesa
               </button>
             </fieldset>
-            <fieldset class="reservation__form-fieldset">
-              <label class="reservation__label-checkbox">
+            <fieldset class="form__fieldset">
+              <label class="form__label-checkbox">
                 <input
                   type="checkbox"
                   id="terms"
                   name="terms"
-                  class="reservation__form-checkbox"
+                  class="form__checkbox"
                   required
                 />
                 Acepto los términos de uso
@@ -199,6 +206,7 @@
         </section>
       </main>
 
+      <!--FOOTER-->
       <footer class="footer"></footer>
     </div>
   </body>
